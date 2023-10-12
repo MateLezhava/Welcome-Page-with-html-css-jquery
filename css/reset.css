@@ -1,0 +1,33 @@
+/* Reset CSS */
+html, body, div, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Set the default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Remove list styles */
+ul {
+    list-style: none;
+}
+
+/* Set links to blue and remove underlines */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Add a basic box model */
+div, p, ul, li {
+    box-sizing: border-box;
+}
+
+/* Additional resets or styles can be added as needed */
